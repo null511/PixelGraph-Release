@@ -130,7 +130,7 @@ jobs:
         uses: docker/build-push-action@v1
         with:
           repository: null511/pixelgraph
-          username: ${{ secrets.DOCKERHUB_USERNAME }}
+          username: null511
           password: ${{ secrets.DOCKERHUB_TOKEN }}
           tags: latest,${{ github.event.inputs.version }}
       - name: Publish Release
