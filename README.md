@@ -1,8 +1,8 @@
-# <img src="https://raw.githubusercontent.com/null511/PixelGraph/master/media/icon.png" height="28"/>&nbsp; PixelGraph&nbsp; [![Actions Status](https://github.com/null511/PixelGraph/workflows/Release/badge.svg)](https://github.com/null511/PixelGraph/actions)
+# <img src="https://raw.githubusercontent.com/null511/PixelGraph-Release/master/media/icon.png" height="28"/>&nbsp; PixelGraph&nbsp; [![Actions Status](https://github.com/null511/PixelGraph-Release/workflows/Release/badge.svg)](https://github.com/null511/PixelGraph-Release/actions)
 
 PixelGraph is an application for publishing Minecraft resource packs, specially tooled for PBR materials. It allows you to work in a "raw" texture space and automates publishing to one or more encodings, rather than trying to directly encode your textures as design-time. Yaml configuration files can also be used to apply final adjustments to your compiled textures. A cross-platform command-line version is also available, allowing you to completely automating your publishing process from your remote content repository.
 
-<img src="https://github.com/null511/PixelGraph/raw/master/media/UI.png" alt="User Interface" />
+<img src="https://github.com/null511/PixelGraph-Release/raw/master/media/UI.png" alt="User Interface" />
 
  - **Simplify your workflow** by adjusting text instead of pixels. Getting image-based material values just right can be tedious, time consuming, and destructive.
 
@@ -12,23 +12,23 @@ PixelGraph is an application for publishing Minecraft resource packs, specially 
 
  - **Automate** Normal & AO generation, resizing, and channel-swapping so that you can spend more time designing and less time repeating yourself.
 
-<img src="https://github.com/null511/PixelGraph/raw/master/media/LAB11.png" alt="PBR Workflow" />
+<img src="https://github.com/null511/PixelGraph-Release/raw/master/media/LAB11.png" alt="PBR Workflow" />
 
 ### Normal-Map Generation
 
 Allows normal-map textures to be created from height-maps as needed during publishing, or by prerendering them beforehand. Strength, blur, and wrapping can be managed using the textures matching pbr-properties file.
 
-<img src="https://github.com/null511/PixelGraph/raw/master/media/NormalGeneration.png" alt="Normal-Map from Height-Map" height="180px"/>
+<img src="https://github.com/null511/PixelGraph-Release/raw/master/media/NormalGeneration.png" alt="Normal-Map from Height-Map" height="180px"/>
  
 ### Occlusion-Map Generation
 
 Allows ambient-occlusion textures to be created from height-maps as needed during publishing, or by prerendering them beforehand. Quality, Z-scale, step-count, and wrapping can be managed using the materials properties.
 
-<img src="https://github.com/null511/PixelGraph/raw/master/media/OcclusionGeneration.png" alt="Occlusion-Map from Height-Map" height="180px"/>
+<img src="https://github.com/null511/PixelGraph-Release/raw/master/media/OcclusionGeneration.png" alt="Occlusion-Map from Height-Map" height="180px"/>
 
 ## Installation
 
-For manual installation, download the latest standalone executable from the [Releases](https://github.com/null511/PixelGraph/releases) page. For automated usage see [Docker Usage](https://github.com/null511/PixelGraph/wiki/Installation#docker). Visit the [wiki](https://github.com/null511/PixelGraph/wiki/Installation) for more information.
+For manual installation, download the latest standalone executable from the [Releases](https://github.com/null511/PixelGraph-Release/releases) page. For automated usage see [Docker Usage](https://github.com/null511/PixelGraph-Release/wiki/Installation#docker). Visit the [wiki](https://github.com/null511/PixelGraph-Release/wiki/Installation) for more information.
 
 ## Manual Usage
 
@@ -50,9 +50,9 @@ output:
 texture-scale: 0.5
 ```
 
-Material files are used to desribe a collection of textures that compose a single game "item". For more details, see the [Wiki](https://github.com/null511/PixelGraph/wiki/File-Loading).
+Material files are used to desribe a collection of textures that compose a single game "item". For more details, see the [Wiki](https://github.com/null511/PixelGraph-Release/wiki/File-Loading).
 ```yml
-# ~/assets/minecraft/textures/block/lantern.pbr.yml
+# ~/assets/minecraft/textures/block/lantern.mat.yml
 smooth:
   scale: 1.2
 metal:
