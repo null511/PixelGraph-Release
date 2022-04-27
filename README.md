@@ -2,10 +2,8 @@
 
 PixelGraph is an application for publishing Minecraft resource packs, specially tooled for PBR materials. It allows you to work in a "raw" texture space and automates publishing to one or more encodings, rather than trying to directly encode your textures as design-time. Yaml configuration files can also be used to apply final adjustments to your compiled textures. A cross-platform command-line version is also available, allowing you to completely automating your publishing process from your remote content repository.
 
->>>
-PixelGraph is now licensed for commercial usage! For authors with a combined total income over $30/month from Pixel-Graph published projects, please see [Licensing](https://github.com/null511/PixelGraph-Release/wiki/Licensing). For personal projects or authors not meeting the license criteria, usage is completely free.
->>>
-
+> :warning: **PixelGraph is now licensed for commercial usage!** For authors with a combined total income over $30/month from Pixel-Graph published projects, please see [Licensing](https://github.com/null511/PixelGraph-Release/wiki/Licensing). For personal projects or authors not meeting the license criteria, usage is completely free.
+----
 <img src="https://github.com/null511/PixelGraph-Release/raw/main/media/UI.png" alt="User Interface" />
 
  - **Simplify your workflow** by adjusting text instead of pixels. Getting image-based material values just right can be tedious, time consuming, and destructive.
